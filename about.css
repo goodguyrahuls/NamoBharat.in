@@ -1,0 +1,62 @@
+/* About Us Section Styling */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-intro {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.btn-about {
+    background-color: #790e52;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-about:hover {
+    background-color: #550f3b;
+}
